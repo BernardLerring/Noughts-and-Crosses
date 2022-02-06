@@ -1,12 +1,24 @@
+"""Board will be made using a dictionary that will be represented by
+the numbers on the numerical keypad. These will be empty until the
+player selects their position"""
+
 theBoard = {'7': ' ', '8': ' ', '9': ' ',
             '4': ' ', '5': ' ', '6': ' ',
             '1': ' ', '2': ' ', '3': ' '}
 
+board_keys = []
+
+for key in theBoard:
+    board_keys.append(key)
+
+# Prints the game board to the terminal to allow the entry of
+# oughts or crosses. A new board will be created and printed
+# after every turn
+
 
 def print_board(board):
 
-    """prints the game board to the terminal to allow the entry of
-    noughts or crosses"""
+    """Prints the game board"""
 
     print(board['7'] + ' | ' + board['8'] + ' | ' + board['9'])
     print('--+-+--')
@@ -17,5 +29,84 @@ def print_board(board):
 
 def game():
 
+    """Runs the game"""
+
     turn = 'X'
     count = 0
+
+    for i in range(10):
+        print_board(theBoard)
+        print('Your move,' + turn + 'Move to which space on board?')
+
+        move = input()
+
+        if theBoard[move] == ' ':
+            theBoard[move] = turn
+            count += 1
+        
+        else:
+            print('That space is taken.\nMove to which other space?')
+            continue
+
+        # now we check if either player has won after 5 moves
+
+        if count >= 5:
+            if theBoard['7'] == theBoard['8'] == theBoard['9'] != ' ':
+                # top row win
+                print_board(theBoard)
+                print('\nGame Over\n')
+                print(' **** ' + turn + ' won. ****')
+                break
+            elif theBoard['4'] == theBoard['5'] == theBoard['6'] != ' ':
+                # middle row win
+                print_board(theBoard)
+                print('\nGame Over\n')
+                print(' **** ' + turn + ' won. ****')
+                break
+            elif theBoard['1'] == theBoard['2'] == theBoard['3'] != ' ':
+                # bottom row win
+                print_board(theBoard)
+                print('\nGame Over\n')
+                print(' **** ' + turn + ' won. ****')
+                break
+            elif theBoard['1'] == theBoard['4'] == theBoard['7'] != ' ':
+                # left side win
+                print_board(theBoard)
+                print('\nGame Over\n')
+                print(' **** ' + turn + ' won. ****')
+                break
+            elif theBoard['2'] == theBoard['5'] == theBoard['8'] != ' ':
+                # middle column win
+                print_board(theBoard)
+                print('\nGame Over\n')
+                print(' **** ' + turn + ' won. ****')
+                break
+            elif theBoard['3'] == theBoard['6'] == theBoard['9'] != ' ':
+                # right side win
+                print_board(theBoard)
+                print('\nGame Over\n')
+                print(' **** ' + turn + ' won. ****')
+                break
+            elif theBoard['1'] == theBoard['5'] == theBoard['9'] != ' ':
+                # diagonal win
+                print_board(theBoard)
+                print('\nGame Over\n')
+                print(' **** ' + turn + ' won. ****')
+                break
+            elif theBoard['3'] == theBoard['5'] == theBoard['7'] != ' ':
+                # diagonal win
+                print_board(theBoard)
+                print('\nGame Over\n')
+                print(' **** ' + turn + ' won. ****')
+                break
+
+        # if neither 0 or X wins, and the board is full we declare a tied game
+        if count == 9:
+            print('\nGame tied\n')
+
+        # change player after each turn
+        if turn == 'X':
+            turn = '0'
+
+        else:
+            turn = 'X'
