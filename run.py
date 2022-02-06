@@ -21,9 +21,9 @@ def print_board(board):
     """Prints the game board"""
 
     print(board['7'] + ' | ' + board['8'] + ' | ' + board['9'])
-    print('--+-+--')
+    print('--+---+--')
     print(board['4'] + ' | ' + board['5'] + ' | ' + board['6'])
-    print('--+-+--')
+    print('--+---+--')
     print(board['1'] + ' | ' + board['2'] + ' | ' + board['3'])
 
 
@@ -36,14 +36,13 @@ def game():
 
     for i in range(10):
         print_board(theBoard)
-        print('Your move,' + turn + 'Move to which space on board?')
+        print('Your move, ' + turn + '.' ' Move to which space on board?')
 
         move = input()
 
         if theBoard[move] == ' ':
             theBoard[move] = turn
-            count += 1
-        
+            count += 1    
         else:
             print('That space is taken.\nMove to which other space?')
             continue
@@ -110,3 +109,15 @@ def game():
 
         else:
             turn = 'X'
+
+    # ask user if they want to play another game
+    restart = input('Would you like to play another game?(y/n?)')
+    if restart == 'y' or restart == 'Y':
+        for key in board_keys:
+            theBoard[key] = ' '
+
+        game()
+
+
+if __name__ == '__main__':
+    game()
