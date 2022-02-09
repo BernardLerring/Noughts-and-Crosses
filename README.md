@@ -40,7 +40,7 @@ There are no images in this game as it is a back end program.
 
 ## Flow Diagrams
 
-images here
+
 
 ## Features
 
@@ -66,23 +66,9 @@ images here
 
 - I confirmed that the site is responsive on a variety of device sizes through DevTools.
 
-- I confirm that the colours and fonts all contrast and allow the user to easily navigate the site.
-
-- I have confirmed that the quiz works and highlights the correct and incorrect answers if the user enters them. 
-
-- I confirm that the site works in both Safari and Chrome.
-
 ## Validation
 
-- I confirm that no errors were found when passing it through the W3C html validator.
-
-- I confirm that no errors were found when passing through the Jigsaw CSS validator.
-
-- I confirm that no errors were found when passing it through the JSHint Javascript validator.
-
-- I confirm that the site is easy to read and navigate by passing it through the Lighthouse tool on DevTools.
-
-<img width="255" alt="Screen Shot 2022-01-08 at 4 45 43 PM" src="https://user-images.githubusercontent.com/92179145/148652422-a97de7af-5916-4f77-8e0e-0290593f7185.png">
+- 
 
 ## Fixed Bugs 
 
@@ -96,35 +82,25 @@ images here
 
 ## Deployment
 
-The site was deployed to GitHub pages by following these steps:
+The site was deployed to Heroku by following these steps:
 
-1. In the GitHub repository, find the Settings tab.
+1. 
 
-2. From the Source section drop down menu select "Main".
+2. 
 
-3. Press "Refresh".
+3. 
 
-4. GitHub then creates the live link for the site.
-
-It can also be found at [TheOfficeQuiz](https://bernardlerring.github.io/TheOffice/)
+4. 
 
 ## Credits
 
 ### Content
 
-- Image was taken from [Joe](https://www.joe.ie/quiz/ultimate-uk-office-quiz-season-1-695985)
-
-- Some questions were taken from [MentalFloss](https://www.mentalfloss.com/quizzes/13559/office-quiz-uk-edition)
-
-- Code used for the main quiz Javascript structure was taken from [SitePoint](https://www.sitepoint.com/simple-javascript-quiz/)
+- 
 
 ### Personal Development
 
-- I have struggled to get my head around Javascript, so the site is quite simplistic. With the tight timeframe to get this project submitted I played it safe, but would like to revisit Javascript at another time to try and fully understand the syntax, layout and functions used.
-
-- Future versions of the site would have updated questions and an area to submit your own questions.
-
-- A future site would also include a leaderboard to store multiple users scores.
+- 
 
 ### Thanks
 
