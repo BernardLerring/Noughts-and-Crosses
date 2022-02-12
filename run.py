@@ -1,3 +1,7 @@
+#this game was created using the framework at medium.com
+#to assist with the code. Their are personalisations in 
+#my code to make it function as I wanted it to.
+
 """Board will be made using a dictionary that will be represented by
 the numbers on the numerical keypad. These will be empty until the
 player selects their position"""
