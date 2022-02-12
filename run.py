@@ -1,6 +1,6 @@
-#this game was created using the framework at medium.com
-#to assist with the code. Their are personalisations in 
-#my code to make it function as I wanted it to.
+# This game was created using the framework at medium.com
+# to assist with the code. Their are personalisations in
+# my code to make it function as I wanted it to.
 
 """Board will be made using a dictionary that will be represented by
 the numbers on the numerical keypad. These will be empty until the
@@ -55,7 +55,7 @@ def game():
 
         if theBoard[move] == ' ':
             theBoard[move] = turn
-            count += 1    
+            count += 1
         else:
             print('That space is taken.\nMove to which other space?')
             continue
