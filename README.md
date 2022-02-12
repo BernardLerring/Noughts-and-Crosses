@@ -72,13 +72,13 @@ There are no images in this game as it is a back end program.
 
 ## Fixed Bugs 
 
-- All media queries resolved size and flow issues on smaller devices.
+- Added try/except statement to ensure correct input of only numbers between 1 and 9.
+
+- Added if statement to clear board and ask user if they want to play another game in the event of a tie.
 
 ## Unfixed Bugs
 
-- The score from the previous game is still visible after the restart quiz button is pushed.
-
-- When I created the pagination to produce one question at a time, it broke the "restart quiz" function. I was unable to work out what caused this so I did not include the pagination in the final quiz.
+- 
 
 ## Deployment
 
@@ -107,3 +107,5 @@ The site was deployed to Heroku by following these steps:
 - My Partner for being my UX companion for the site and for helping test it for me.
 
 - My mentor for his feedback and encouragement throughout the project.
+
+- The good people of the CI Slack Channel for help with my code.

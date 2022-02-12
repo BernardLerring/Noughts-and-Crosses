@@ -115,6 +115,12 @@ def game():
         # if neither 0 or X wins, and the board is full we declare a tied game
         if count == 9:
             print('\nGame tied\n')
+            restart = input('Would you like to play another game?(y/n?)')
+            if restart == 'y' or restart == 'Y':
+                for key in board_keys:
+                    theBoard[key] = ' '
+
+                game()
 
         # change player after each turn
         if turn == 'X':
