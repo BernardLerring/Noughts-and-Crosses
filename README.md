@@ -22,7 +22,7 @@ Assorted responsive screen images here
 
 ### Frequent user goals:
 
-- I would like to see a variety of different difficulty levels so I can continue to challenge myself.
+- I would like to be able to play against the computer as well as another person.
 
 ## Design
 
@@ -40,7 +40,7 @@ There are no images in this game as it is a back end program.
 
 ## Flow Diagrams
 
-
+<img width="1191" alt="Screen Shot 2022-02-09 at 8 04 45 PM" src="https://user-images.githubusercontent.com/92179145/153703817-6ac58073-372b-409d-bef2-45539c41169c.png">
 
 ## Features
 
@@ -72,13 +72,11 @@ There are no images in this game as it is a back end program.
 
 ## Fixed Bugs 
 
-- All media queries resolved size and flow issues on smaller devices.
+- Function added to tell user of incorrect input. Must be number between 1 and 9.
 
 ## Unfixed Bugs
 
-- The score from the previous game is still visible after the restart quiz button is pushed.
-
-- When I created the pagination to produce one question at a time, it broke the "restart quiz" function. I was unable to work out what caused this so I did not include the pagination in the final quiz.
+- The board doesn't clear after a tied game even though the option is given to start a new game meaning that the spaces are all full on the board.
 
 ## Deployment
 
@@ -96,7 +94,7 @@ The site was deployed to Heroku by following these steps:
 
 ### Content
 
-- 
+- [Medium](https://medium.com/byte-tales/the-classic-tic-tac-toe-game-in-python-3-1427c68b8874) was used for a framework for the code.
 
 ### Personal Development
 
@@ -107,3 +105,5 @@ The site was deployed to Heroku by following these steps:
 - My Partner for being my UX companion for the site and for helping test it for me.
 
 - My mentor for his feedback and encouragement throughout the project.
+
+- The good people of Slack for helping me with my code.
