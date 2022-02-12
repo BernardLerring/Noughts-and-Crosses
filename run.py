@@ -12,7 +12,7 @@ for key in theBoard:
     board_keys.append(key)
 
 # Prints the game board to the terminal to allow the entry of
-# oughts or crosses. A new board will be created and printed
+# noughts or crosses. A new board will be created and printed
 # after every turn
 
 
@@ -36,9 +36,18 @@ def game():
 
     for i in range(10):
         print_board(theBoard)
-        print('Your move, ' + turn + '.' ' Move to which space on board?')
+        print('Your move, ' + turn + '.')
+        print('Select a number between 1 and 9')
 
-        move = input()
+        while True:
+            move = input()
+            try:
+                if move not in theBoard.keys():
+                    raise ValueError("Please enter a value between 1 and 9")
+            except ValueError as e:
+                print(f"Invalid entry: {e}, try again")
+            else:
+                break
 
         if theBoard[move] == ' ':
             theBoard[move] = turn
