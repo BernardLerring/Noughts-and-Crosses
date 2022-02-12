@@ -72,21 +72,9 @@ There are no images in this game as it is a back end program.
 
 ## Fixed Bugs 
 
-<<<<<<< HEAD
-- Added try/except statement to ensure correct input of only numbers between 1 and 9.
+- Try/except statement added to inform user it must be a value between 1-9, and a number.
 
-- Added if statement to clear board and ask user if they want to play another game in the event of a tie.
-
-## Unfixed Bugs
-
-- 
-=======
-- Function added to tell user of incorrect input. Must be number between 1 and 9.
-
-## Unfixed Bugs
-
-- The board doesn't clear after a tied game even though the option is given to start a new game meaning that the spaces are all full on the board.
->>>>>>> b5d051b768d7e69cc06b2691649556420c4d5fdf
+- If statement used to clear board and ask user if they want to play another game in the event of a tie.
 
 ## Deployment
 
