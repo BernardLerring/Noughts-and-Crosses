@@ -22,7 +22,7 @@ Assorted responsive screen images here
 
 ### Frequent user goals:
 
-- I would like to see a variety of different difficulty levels so I can continue to challenge myself.
+- I would like to be able to play against the computer as well as another person.
 
 ## Design
 
@@ -40,7 +40,7 @@ There are no images in this game as it is a back end program.
 
 ## Flow Diagrams
 
-
+<img width="1191" alt="Screen Shot 2022-02-09 at 8 04 45 PM" src="https://user-images.githubusercontent.com/92179145/153703817-6ac58073-372b-409d-bef2-45539c41169c.png">
 
 ## Features
 
@@ -72,6 +72,7 @@ There are no images in this game as it is a back end program.
 
 ## Fixed Bugs 
 
+<<<<<<< HEAD
 - Added try/except statement to ensure correct input of only numbers between 1 and 9.
 
 - Added if statement to clear board and ask user if they want to play another game in the event of a tie.
@@ -79,6 +80,13 @@ There are no images in this game as it is a back end program.
 ## Unfixed Bugs
 
 - 
+=======
+- Function added to tell user of incorrect input. Must be number between 1 and 9.
+
+## Unfixed Bugs
+
+- The board doesn't clear after a tied game even though the option is given to start a new game meaning that the spaces are all full on the board.
+>>>>>>> b5d051b768d7e69cc06b2691649556420c4d5fdf
 
 ## Deployment
 
@@ -96,7 +104,7 @@ The site was deployed to Heroku by following these steps:
 
 ### Content
 
-- 
+- [Medium](https://medium.com/byte-tales/the-classic-tic-tac-toe-game-in-python-3-1427c68b8874) was used for a framework for the code.
 
 ### Personal Development
 
@@ -108,4 +116,8 @@ The site was deployed to Heroku by following these steps:
 
 - My mentor for his feedback and encouragement throughout the project.
 
+<<<<<<< HEAD
 - The good people of the CI Slack Channel for help with my code.
+=======
+- The good people of Slack for helping me with my code.
+>>>>>>> b5d051b768d7e69cc06b2691649556420c4d5fdf
