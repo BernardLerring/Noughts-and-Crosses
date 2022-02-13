@@ -62,10 +62,6 @@ There are no images in this game as it is a back end program.
 
 - [Medium](https://medium.com/byte-tales/the-classic-tic-tac-toe-game-in-python-3-1427c68b8874) was used for a framework for the code.
 
-## Testing
-
-- I confirmed that the site is responsive on a variety of device sizes through DevTools.
-
 ## Validation
 
 - I confirmed that the code passed all tests on the Pep8 Python Code Checker.
