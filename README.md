@@ -66,7 +66,7 @@ There are no images in this game as it is a back end program.
 
 - I confirmed that the code passed all tests on the Pep8 Python Code Checker.
 
-- <img width="1004" alt="Screen Shot 2022-02-12 at 9 13 22 AM" src="https://user-images.githubusercontent.com/92179145/153745146-9bab3967-e137-43b6-b371-4e2e5e6b581b.png">
+<img width="1004" alt="Screen Shot 2022-02-12 at 9 13 22 AM" src="https://user-images.githubusercontent.com/92179145/153745146-9bab3967-e137-43b6-b371-4e2e5e6b581b.png">
 
 ## Fixed Bugs 
 
