@@ -4,7 +4,7 @@
 
 This is the main website for a 2 player Noughts & Crosses game.
 
-Assorted responsive screen images here
+<img width="961" alt="Screen Shot 2022-02-13 at 9 04 26 AM" src="https://user-images.githubusercontent.com/92179145/153747467-e7c4e1bb-8c28-43a6-a9b3-3064ba419a89.png">
 
 ## User Experience
 
