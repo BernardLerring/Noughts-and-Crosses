@@ -68,7 +68,9 @@ There are no images in this game as it is a back end program.
 
 ## Validation
 
-- 
+- The code passed all checks in the pep8 Python code checker.
+
+
 
 ## Fixed Bugs 
 
