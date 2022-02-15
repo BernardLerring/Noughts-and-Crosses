@@ -28,15 +28,15 @@ This is the main website for a 2 player Noughts & Crosses game.
 
 ### Colour scheme:
 
-As the game is a back end program, there is no set colour scheme for it.
+- As the game is a back end program, there is no set colour scheme for it.
 
 ### Fonts/Typography:
 
-As the game is a back end program, the font is the Heroku default font. 
+- As the game is a back end program, the font is the Heroku default font. 
 
 ### Images:
 
-There are no images in this game as it is a back end program.
+- There are no images in this game as it is a back end program.
 
 ## Flow Diagrams
 
@@ -78,13 +78,15 @@ There are no images in this game as it is a back end program.
 
 The site was deployed to Heroku by following these steps:
 
-1. 
+1. Create a Heroku account, and choose create new app
 
-2. 
+2. Ensure config vars are set up for app
 
-3. 
+3. Add buildpacks for Python and NodeJS
 
-4. 
+4. Deploy the site through choosing Github in the deply section
+
+5. Click on deployed site link once complete to take you to [Noughts&Crosses](https://noughts-crosses-project.herokuapp.com/)
 
 ## Credits
 
