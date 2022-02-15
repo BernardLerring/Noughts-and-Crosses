@@ -18,7 +18,7 @@ This is the main website for a 2 player Noughts & Crosses game.
 
 ### Returning user goals:
 
-- As a returning visitor I want to be able to play again and again, simply.
+- As a returning visitor I want to be able to play the game easily again and again.
 
 ### Frequent user goals:
 
